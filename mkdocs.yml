@@ -1,0 +1,23 @@
+site_name: Cementing Quality Prediction
+site_description: ML system for cementing quality prediction
+repo_url: https://github.com/kcabrera-oil-gas/cementing-quality-prediction
+site_author: Kelvin J Cabrera
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+  features:
+    - navigation.instant
+    - navigation.top
+
+nav:
+  - Home: index.md
+  - API: api.md
+  - Models: models.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true

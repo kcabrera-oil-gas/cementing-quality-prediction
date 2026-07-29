@@ -1,6 +1,9 @@
 .env
 __pycache__/
 *.pyc
-outputs/
+outputs/**
+!outputs/models/*.pkl
 mlflow.db
 site/
+
+generated_data.csv
